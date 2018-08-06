@@ -95,25 +95,21 @@ function lesser (num1, num2) {
 //
 // If any other language code is used, return nothing.
 
- function multigreeting (name, languageCode) {
-    if (languageCode === en) {
+
+function multigreeting (name, language) {
+    if (language === "en") {
         return ("Hello, " + name + "!");
     }
-    else if (languageCode === es) {
-        return (("!Hola, " + name + "!");)
+    else if (language === "es") {
+        return ("¡Hola, " + name + "!");
     }
-    else if (languageCode === fr) {
+    else if (language === "fr") {
         return ("Bonjour, " + name + "!");
     }
-    else if (languageCode === eo) {
-        return (("Saluton, " + name + "!");)
-    }
-    else {
-        return
+    else if (language === "eo") {
+        return ("Saluton, " + name + "!");
     }
 }
-multigreeting ("Julian")
-
 
 // 11. Create a function, howOld, that takes a birthdate and a another
 // date (the "current date") and returns how many years old the person
@@ -121,5 +117,14 @@ multigreeting ("Julian")
 // Date objects.
 // If the birth date is after than the current date, return nothing.
 
+/* function calcAge(yearOfBirth) {
+    var age = new Date ().getfullyear() - yearOfBirth; 
+    console.log(`You are ${age} years old!`);
+  }
+  calcAge ("1978");      convert milliseconds to yrs; round down 
+  */
 
-
+function howOld (birthdate, current ) {
+    if 
+}
+    return ();
