@@ -11,13 +11,11 @@ var leftover = 20 % 6
 
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
-// "Come here, Charlie."
 
 function greeting(name) {
     return("Hello, " + name + "!");
 }
 greeting("Chase");
-
 
 // 4. Create a function called isOdd that, given a number, will
 // return true if it is odd and false if it is not.
@@ -117,14 +115,12 @@ function multigreeting (name, language) {
 // Date objects.
 // If the birth date is after than the current date, return nothing.
 
-/* function calcAge(yearOfBirth) {
-    var age = new Date ().getfullyear() - yearOfBirth; 
-    console.log(`You are ${age} years old!`);
-  }
-  calcAge ("1978");      convert milliseconds to yrs; round down 
-  */
+// Note: convert milliseconds to yrs; round down
 
-function howOld (birthdate, current ) {
-    if 
+function howOld (birthdate, current) {
+    if () {
+        return yearsOld
+    }
+    else if (birthdate > current) {
+    }
 }
-    return ();
